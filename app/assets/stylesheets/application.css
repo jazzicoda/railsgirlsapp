@@ -18,7 +18,19 @@
  th { border-bottom: 1px solid #DDD; }
  body { margin: 0; }
 
- .gravatar {
-    height: 30px;
-    width: auto;
-  }
+.gravatar {
+  height: 30px;
+  width: auto;
+}
+
+.navbar {
+  min-height: 38px;
+  background-color: #f5a855;
+}
+
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+ color: #fff;
+ background-color: transparent;
+ text-decoration: none;
+}
